@@ -1,0 +1,8 @@
+prefix=/home/amin/gnss_ws/devel
+
+Name: gnss
+Description: Description of gnss
+Version: 1.12.0
+Cflags: -I/home/amin/gnss_ws/src/gnss/include
+Libs: -L${prefix}/lib -lgnss
+Requires: 

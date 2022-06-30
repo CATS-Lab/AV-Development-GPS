@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/amin/gnss_ws/src/gnss/include/gnss/geo_pos_conv.hpp
+
+/home/amin/gnss_ws/src/gnss/src/geo_pos_conv.cpp
+gnss/geo_pos_conv.hpp
+-
+cmath
+-
+

@@ -1,0 +1,2 @@
+autoware_build_flags:gnss:gnss_localizer
+-DCATKIN_DEVEL_PREFIX=/home/amin/gnss_ws/devel -DCMAKE_INSTALL_PREFIX=/home/amin/gnss_ws/install -G Unix Makefiles
