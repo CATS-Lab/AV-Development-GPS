@@ -30,11 +30,10 @@ Or use below to set IP and Port in the command:
 Rostopic list: 
 
 .. image:: img/Picture1.png
-:width: 600
 
 Rostopic echo /gps/gps:
 
-.. image:: /img/Picture2.png
+.. image:: img/Picture2.png
 
 Publish
 ---------------------
@@ -53,7 +52,7 @@ NMEA_Sentence: {topic: /gps/nmea_sentence,    frame_id: gps}
 
 Connecting GPS data and publishing to nmea_sentence
 Autoware (nmea2ftpose) uses /nmea_sentence topic for GPS data. 
-.. image:: /img/Picture3.png
+.. image:: img/Picture3.png
 
 Convert to Lat Lng coordinate
 ---------------------
@@ -66,16 +65,16 @@ Here:
 - Lat: 28+03.4178/60 = 28.0569 N
 - Lng: 082+24.9503/60 = 82.4158 W
 
-.. image:: /img/Picture4.png 
+.. image:: img/Picture4.png 
 
 And publishes to /gnss/pose:
 
-.. image:: /img/Picture5.png
+.. image:: img/Picture5.png
 
 After building the nodes run:
 roslaunch gnss_localizer nmea2tfpose.launch 
 Topic: GNSS_POSE 
 
-.. image:: /img/Picture6.png
+.. image:: img/Picture6.png
 
 
