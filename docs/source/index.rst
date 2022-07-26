@@ -42,10 +42,10 @@ Instructions to publish gps data to /nmea_sentence :
 
 2. Write the following code in the config file:
 receiver_ext_init_commands: 
-- "LOG GPGGA ONTIME 1"
-- "LOG GPGSA ONTIME 1"
-- "LOG GPGSV ONTIME 1"
-- "LOG GPRMC ONTIME 1"
+- "LOG GPGGA ONTIME 1" 
+- "LOG GPGSA ONTIME 1" 
+- "LOG GPGSV ONTIME 1" 
+- "LOG GPRMC ONTIME 1" 
 
 NMEA_Sentence: {topic: /gps/nmea_sentence,    frame_id: gps}
 3. Load nmea.yaml file in the custom launch file.
