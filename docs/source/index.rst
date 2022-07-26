@@ -28,6 +28,7 @@ Or use below to set IP and Port in the command:
 
 - $ roslaunch novatel_oem7_driver oem7_net.launch oem7_ip_addr:=192.168.88.29 oem_port:=2000
 Rostopic list: 
+
 .. image:: img/Picture1.png
 :width: 600
 
