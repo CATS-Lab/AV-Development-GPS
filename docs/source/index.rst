@@ -14,9 +14,9 @@ Implementation
 
 - Modify the  oem7_net.launch fileto set IP address and Port # as below:
 
-* sudo nano /opt/ros/$ROS_DISTRO/share/novatel_oem7_driver/launch/oem7_net.launch
+- sudo nano /opt/ros/$ROS_DISTRO/share/novatel_oem7_driver/launch/oem7_net.launch
 
-IP and Port:
+- IP and Port:
 - GNSS Receiver IP Address is: 192.168.88.29
 - GNSS Receiver Port # is: 2000
 
