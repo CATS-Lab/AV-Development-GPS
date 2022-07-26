@@ -28,11 +28,11 @@ Or use below to set IP and Port in the command:
 
 - $ roslaunch novatel_oem7_driver oem7_net.launch oem7_ip_addr:=192.168.88.29 oem_port:=2000
 Rostopic list:
-.. image:: 
+.. image:: /img/Picture1.png
 
 Rostopic echo /gps/gps:
 
-.. image:: 
+.. image:: /img/Picture2.png
 
 Publish
 ---------------------
@@ -51,7 +51,7 @@ NMEA_Sentence: {topic: /gps/nmea_sentence,    frame_id: gps}
 
 Connecting GPS data and publishing to nmea_sentence
 Autoware (nmea2ftpose) uses /nmea_sentence topic for GPS data. 
-.. image:: 
+.. image:: /img/Picture3.png
 
 Convert to Lat Lng coordinate
 ---------------------
@@ -64,16 +64,16 @@ Here:
 - Lat: 28+03.4178/60 = 28.0569 N
 - Lng: 082+24.9503/60 = 82.4158 W
 
-.. image:: 
+.. image:: /img/Picture4.png 
 
 And publishes to /gnss/pose:
 
-.. image:: 
+.. image:: /img/Picture5.png
 
 After building the nodes run:
 roslaunch gnss_localizer nmea2tfpose.launch 
 Topic: GNSS_POSE 
 
-.. image:: 
+.. image:: /img/Picture6.png
 
 
