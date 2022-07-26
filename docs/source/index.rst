@@ -65,7 +65,7 @@ Here:
 - Lat: 28+03.4178/60 = 28.0569 N
 - Lng: 082+24.9503/60 = 82.4158 W
 
-.. image:: img/Picture4.png 
+.. image:: img/Picture4.png
 
 And publishes to /gnss/pose:
 
