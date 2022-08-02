@@ -132,8 +132,6 @@ void Nmea2TFPoseNode::convert(std::vector<std::string> nmea, ros::Time current_s
       m_lon = floor(10000 * (lond+(lonm/60.0)))/10000;
       m_h  =  h;
 
-
-
       if (nmea.at(3) == "S")
         m_lat = -m_lat;
 
@@ -169,7 +167,6 @@ void Nmea2TFPoseNode::convert(std::vector<std::string> nmea, ros::Time current_s
 
       if (nmea.at(6) == "W")
         m_lon = -m_lon;
-
 
       ROS_INFO("GPRMC is subscribed.");
     }
